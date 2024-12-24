@@ -33,6 +33,9 @@
 		2B4F151F2D19517E004B8838 /* swiftynote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftynote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4F15352D195180004B8838 /* swiftynoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftynoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4F153F2D195180004B8838 /* swiftynoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftynoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA3D4042D1A5A99003C4DCB /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		2BA3D4052D1A5AC1003C4DCB /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		2BA3D4062D1A5AE3003C4DCB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		38BC7DC251A2D5F631C4964C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		899A3FF140E8B7A0B47AACBE /* Pods-swiftynote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftynote.debug.xcconfig"; path = "Target Support Files/Pods-swiftynote/Pods-swiftynote.debug.xcconfig"; sourceTree = "<group>"; };
 		A4ADA499517AEF027CCA9A9D /* Pods-swiftynote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftynote.release.xcconfig"; path = "Target Support Files/Pods-swiftynote/Pods-swiftynote.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +101,7 @@
 		2B4F15162D19517E004B8838 = {
 			isa = PBXGroup;
 			children = (
+				2BA3D4032D1A5A2D003C4DCB /* Config */,
 				2B4F15212D19517E004B8838 /* swiftynote */,
 				2B4F15382D195180004B8838 /* swiftynoteTests */,
 				2B4F15422D195180004B8838 /* swiftynoteUITests */,
@@ -116,6 +120,16 @@
 				2B4F153F2D195180004B8838 /* swiftynoteUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA3D4032D1A5A2D003C4DCB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2BA3D4042D1A5A99003C4DCB /* Common.xcconfig */,
+				2BA3D4052D1A5AC1003C4DCB /* Debug.xcconfig */,
+				2BA3D4062D1A5AE3003C4DCB /* Release.xcconfig */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		57769EE4326463C812E4EF27 /* Pods */ = {
@@ -390,12 +404,11 @@
 /* Begin XCBuildConfiguration section */
 		2B4F15492D195180004B8838 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 899A3FF140E8B7A0B47AACBE /* Pods-swiftynote.debug.xcconfig */;
+			baseConfigurationReference = 2BA3D4052D1A5AC1003C4DCB /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3NF59D2CW5;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,7 +422,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.swiftynote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -420,12 +432,11 @@
 		};
 		2B4F154A2D195180004B8838 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4ADA499517AEF027CCA9A9D /* Pods-swiftynote.release.xcconfig */;
+			baseConfigurationReference = 2BA3D4062D1A5AE3003C4DCB /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3NF59D2CW5;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -439,7 +450,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.swiftynote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -1,0 +1,11 @@
+//
+//  Debug.xcconfig
+//  swiftynote
+//
+//  Created by taiyh on 2024/12/24.
+//
+
+#include "Common.xcconfig"
+#include "Pods/Target Support Files/Pods-swiftynote/Pods-swiftynote.debug.xcconfig"
+
+INFOPLIST_KEY_CFBundleDisplayName = $(inherited)-debug
