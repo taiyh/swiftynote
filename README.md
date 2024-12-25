@@ -28,3 +28,10 @@ yarn
 pod install
 ```
 
+
+
+## 布局
+
+1，snapkit
+
+2，yogakit.   yogakit 3.0 (React Native 0.74.) 移除了对UIKit的直接支持
