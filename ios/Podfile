@@ -21,7 +21,7 @@ Pod::UI.puts "Start...".green
 
 use_frameworks!
 
-target 'swiftynote' do
+target 'Swiftynote' do
   
   config = use_native_modules!
 

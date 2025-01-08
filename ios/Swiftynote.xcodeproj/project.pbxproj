@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17FA8C4BA31EA54A9BFB18DF /* Pods_swiftynote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5756E48030677A102115B9 /* Pods_swiftynote.framework */; };
 		41E0192C424B9714D2C14693 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 38BC7DC251A2D5F631C4964C /* PrivacyInfo.xcprivacy */; };
+		A5B044EDC6D8AB520FBB5DDA /* Pods_Swiftynote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936EB3208F694D2356A1F53 /* Pods_Swiftynote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,45 +29,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B5756E48030677A102115B9 /* Pods_swiftynote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftynote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B4F151F2D19517E004B8838 /* swiftynote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftynote.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B4F15352D195180004B8838 /* swiftynoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftynoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B4F153F2D195180004B8838 /* swiftynoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftynoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BA3D4042D1A5A99003C4DCB /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		2BA3D4052D1A5AC1003C4DCB /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		2BA3D4062D1A5AE3003C4DCB /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		2B4F151F2D19517E004B8838 /* Swiftynote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftynote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4F15352D195180004B8838 /* SwiftynoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftynoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4F153F2D195180004B8838 /* SwiftynoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftynoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BC7DC251A2D5F631C4964C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		7DC4FF0407349FA46EDC41C3 /* Pods-Swiftynote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiftynote.release.xcconfig"; path = "Target Support Files/Pods-Swiftynote/Pods-Swiftynote.release.xcconfig"; sourceTree = "<group>"; };
 		899A3FF140E8B7A0B47AACBE /* Pods-swiftynote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftynote.debug.xcconfig"; path = "Target Support Files/Pods-swiftynote/Pods-swiftynote.debug.xcconfig"; sourceTree = "<group>"; };
 		A4ADA499517AEF027CCA9A9D /* Pods-swiftynote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftynote.release.xcconfig"; path = "Target Support Files/Pods-swiftynote/Pods-swiftynote.release.xcconfig"; sourceTree = "<group>"; };
+		E936EB3208F694D2356A1F53 /* Pods_Swiftynote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiftynote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD5855A7342330686226888 /* Pods-Swiftynote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiftynote.debug.xcconfig"; path = "Target Support Files/Pods-Swiftynote/Pods-Swiftynote.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2B4F15472D195180004B8838 /* Exceptions for "swiftynote" folder in "swiftynote" target */ = {
+		2B4F15472D195180004B8838 /* Exceptions for "Swiftynote" folder in "Swiftynote" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 2B4F151E2D19517E004B8838 /* swiftynote */;
+			target = 2B4F151E2D19517E004B8838 /* Swiftynote */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2B4F15212D19517E004B8838 /* swiftynote */ = {
+		2B4F15212D19517E004B8838 /* Swiftynote */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2B4F15472D195180004B8838 /* Exceptions for "swiftynote" folder in "swiftynote" target */,
+				2B4F15472D195180004B8838 /* Exceptions for "Swiftynote" folder in "Swiftynote" target */,
 			);
-			path = swiftynote;
+			path = Swiftynote;
 			sourceTree = "<group>";
 		};
-		2B4F15382D195180004B8838 /* swiftynoteTests */ = {
+		2B4F15382D195180004B8838 /* SwiftynoteTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = swiftynoteTests;
+			path = SwiftynoteTests;
 			sourceTree = "<group>";
 		};
-		2B4F15422D195180004B8838 /* swiftynoteUITests */ = {
+		2B4F15422D195180004B8838 /* SwiftynoteUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = swiftynoteUITests;
+			path = SwiftynoteUITests;
+			sourceTree = "<group>";
+		};
+		2BCBC9932D2E70580016CB0D /* Config */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -77,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17FA8C4BA31EA54A9BFB18DF /* Pods_swiftynote.framework in Frameworks */,
+				A5B044EDC6D8AB520FBB5DDA /* Pods_Swiftynote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +105,10 @@
 		2B4F15162D19517E004B8838 = {
 			isa = PBXGroup;
 			children = (
-				2BA3D4032D1A5A2D003C4DCB /* Config */,
-				2B4F15212D19517E004B8838 /* swiftynote */,
-				2B4F15382D195180004B8838 /* swiftynoteTests */,
-				2B4F15422D195180004B8838 /* swiftynoteUITests */,
+				2BCBC9932D2E70580016CB0D /* Config */,
+				2B4F15212D19517E004B8838 /* Swiftynote */,
+				2B4F15382D195180004B8838 /* SwiftynoteTests */,
+				2B4F15422D195180004B8838 /* SwiftynoteUITests */,
 				2B4F15202D19517E004B8838 /* Products */,
 				38BC7DC251A2D5F631C4964C /* PrivacyInfo.xcprivacy */,
 				57769EE4326463C812E4EF27 /* Pods */,
@@ -115,21 +119,11 @@
 		2B4F15202D19517E004B8838 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B4F151F2D19517E004B8838 /* swiftynote.app */,
-				2B4F15352D195180004B8838 /* swiftynoteTests.xctest */,
-				2B4F153F2D195180004B8838 /* swiftynoteUITests.xctest */,
+				2B4F151F2D19517E004B8838 /* Swiftynote.app */,
+				2B4F15352D195180004B8838 /* SwiftynoteTests.xctest */,
+				2B4F153F2D195180004B8838 /* SwiftynoteUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2BA3D4032D1A5A2D003C4DCB /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				2BA3D4042D1A5A99003C4DCB /* Common.xcconfig */,
-				2BA3D4052D1A5AC1003C4DCB /* Debug.xcconfig */,
-				2BA3D4062D1A5AE3003C4DCB /* Release.xcconfig */,
-			);
-			path = Config;
 			sourceTree = "<group>";
 		};
 		57769EE4326463C812E4EF27 /* Pods */ = {
@@ -137,6 +131,8 @@
 			children = (
 				899A3FF140E8B7A0B47AACBE /* Pods-swiftynote.debug.xcconfig */,
 				A4ADA499517AEF027CCA9A9D /* Pods-swiftynote.release.xcconfig */,
+				FAD5855A7342330686226888 /* Pods-Swiftynote.debug.xcconfig */,
+				7DC4FF0407349FA46EDC41C3 /* Pods-Swiftynote.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -144,7 +140,7 @@
 		59591DDA0E41458348C0B1F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1B5756E48030677A102115B9 /* Pods_swiftynote.framework */,
+				E936EB3208F694D2356A1F53 /* Pods_Swiftynote.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B4F151E2D19517E004B8838 /* swiftynote */ = {
+		2B4F151E2D19517E004B8838 /* Swiftynote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B4F15482D195180004B8838 /* Build configuration list for PBXNativeTarget "swiftynote" */;
+			buildConfigurationList = 2B4F15482D195180004B8838 /* Build configuration list for PBXNativeTarget "Swiftynote" */;
 			buildPhases = (
 				6DD3C3B00E1FB9231A821BAC /* [CP] Check Pods Manifest.lock */,
 				2B4F151B2D19517E004B8838 /* Sources */,
@@ -169,16 +165,16 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2B4F15212D19517E004B8838 /* swiftynote */,
+				2B4F15212D19517E004B8838 /* Swiftynote */,
 			);
-			name = swiftynote;
+			name = Swiftynote;
 			productName = swiftynote;
-			productReference = 2B4F151F2D19517E004B8838 /* swiftynote.app */;
+			productReference = 2B4F151F2D19517E004B8838 /* Swiftynote.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B4F15342D195180004B8838 /* swiftynoteTests */ = {
+		2B4F15342D195180004B8838 /* SwiftynoteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B4F154D2D195180004B8838 /* Build configuration list for PBXNativeTarget "swiftynoteTests" */;
+			buildConfigurationList = 2B4F154D2D195180004B8838 /* Build configuration list for PBXNativeTarget "SwiftynoteTests" */;
 			buildPhases = (
 				2B4F15312D195180004B8838 /* Sources */,
 				2B4F15322D195180004B8838 /* Frameworks */,
@@ -190,16 +186,16 @@
 				2B4F15372D195180004B8838 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2B4F15382D195180004B8838 /* swiftynoteTests */,
+				2B4F15382D195180004B8838 /* SwiftynoteTests */,
 			);
-			name = swiftynoteTests;
+			name = SwiftynoteTests;
 			productName = swiftynoteTests;
-			productReference = 2B4F15352D195180004B8838 /* swiftynoteTests.xctest */;
+			productReference = 2B4F15352D195180004B8838 /* SwiftynoteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2B4F153E2D195180004B8838 /* swiftynoteUITests */ = {
+		2B4F153E2D195180004B8838 /* SwiftynoteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B4F15502D195180004B8838 /* Build configuration list for PBXNativeTarget "swiftynoteUITests" */;
+			buildConfigurationList = 2B4F15502D195180004B8838 /* Build configuration list for PBXNativeTarget "SwiftynoteUITests" */;
 			buildPhases = (
 				2B4F153B2D195180004B8838 /* Sources */,
 				2B4F153C2D195180004B8838 /* Frameworks */,
@@ -211,11 +207,11 @@
 				2B4F15412D195180004B8838 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				2B4F15422D195180004B8838 /* swiftynoteUITests */,
+				2B4F15422D195180004B8838 /* SwiftynoteUITests */,
 			);
-			name = swiftynoteUITests;
+			name = SwiftynoteUITests;
 			productName = swiftynoteUITests;
-			productReference = 2B4F153F2D195180004B8838 /* swiftynoteUITests.xctest */;
+			productReference = 2B4F153F2D195180004B8838 /* SwiftynoteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B4F151A2D19517E004B8838 /* Build configuration list for PBXProject "swiftynote" */;
+			buildConfigurationList = 2B4F151A2D19517E004B8838 /* Build configuration list for PBXProject "Swiftynote" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -255,9 +251,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B4F151E2D19517E004B8838 /* swiftynote */,
-				2B4F15342D195180004B8838 /* swiftynoteTests */,
-				2B4F153E2D195180004B8838 /* swiftynoteUITests */,
+				2B4F151E2D19517E004B8838 /* Swiftynote */,
+				2B4F15342D195180004B8838 /* SwiftynoteTests */,
+				2B4F153E2D195180004B8838 /* SwiftynoteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,15 +308,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-swiftynote/Pods-swiftynote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Swiftynote/Pods-Swiftynote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-swiftynote/Pods-swiftynote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Swiftynote/Pods-Swiftynote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftynote/Pods-swiftynote-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swiftynote/Pods-Swiftynote-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		67C8C771C48FBA235428795B /* [CP] Copy Pods Resources */ = {
@@ -329,15 +325,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-swiftynote/Pods-swiftynote-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Swiftynote/Pods-Swiftynote-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-swiftynote/Pods-swiftynote-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Swiftynote/Pods-Swiftynote-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftynote/Pods-swiftynote-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swiftynote/Pods-Swiftynote-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6DD3C3B00E1FB9231A821BAC /* [CP] Check Pods Manifest.lock */ = {
@@ -355,7 +351,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-swiftynote-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Swiftynote-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -391,12 +387,12 @@
 /* Begin PBXTargetDependency section */
 		2B4F15372D195180004B8838 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B4F151E2D19517E004B8838 /* swiftynote */;
+			target = 2B4F151E2D19517E004B8838 /* Swiftynote */;
 			targetProxy = 2B4F15362D195180004B8838 /* PBXContainerItemProxy */;
 		};
 		2B4F15412D195180004B8838 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B4F151E2D19517E004B8838 /* swiftynote */;
+			target = 2B4F151E2D19517E004B8838 /* Swiftynote */;
 			targetProxy = 2B4F15402D195180004B8838 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,7 +400,8 @@
 /* Begin XCBuildConfiguration section */
 		2B4F15492D195180004B8838 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BA3D4052D1A5AC1003C4DCB /* Debug.xcconfig */;
+			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -432,7 +429,8 @@
 		};
 		2B4F154A2D195180004B8838 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BA3D4062D1A5AE3003C4DCB /* Release.xcconfig */;
+			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -620,7 +618,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftynote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftynote";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftynote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftynote";
 			};
 			name = Debug;
 		};
@@ -639,7 +637,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftynote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftynote";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftynote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swiftynote";
 			};
 			name = Release;
 		};
@@ -680,7 +678,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B4F151A2D19517E004B8838 /* Build configuration list for PBXProject "swiftynote" */ = {
+		2B4F151A2D19517E004B8838 /* Build configuration list for PBXProject "Swiftynote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B4F154B2D195180004B8838 /* Debug */,
@@ -689,7 +687,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B4F15482D195180004B8838 /* Build configuration list for PBXNativeTarget "swiftynote" */ = {
+		2B4F15482D195180004B8838 /* Build configuration list for PBXNativeTarget "Swiftynote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B4F15492D195180004B8838 /* Debug */,
@@ -698,7 +696,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B4F154D2D195180004B8838 /* Build configuration list for PBXNativeTarget "swiftynoteTests" */ = {
+		2B4F154D2D195180004B8838 /* Build configuration list for PBXNativeTarget "SwiftynoteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B4F154E2D195180004B8838 /* Debug */,
@@ -707,7 +705,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B4F15502D195180004B8838 /* Build configuration list for PBXNativeTarget "swiftynoteUITests" */ = {
+		2B4F15502D195180004B8838 /* Build configuration list for PBXNativeTarget "SwiftynoteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B4F15512D195180004B8838 /* Debug */,

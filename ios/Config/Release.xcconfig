@@ -6,4 +6,4 @@
 //
 
 #include "Common.xcconfig"
-#include "Pods/Target Support Files/Pods-swiftynote/Pods-swiftynote.release.xcconfig"
+#include "Pods/Target Support Files/Pods-Swiftynote/Pods-Swiftynote.release.xcconfig"
