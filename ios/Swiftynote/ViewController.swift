@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         print("viewDidLoad")
     }
 
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 
 }
 
