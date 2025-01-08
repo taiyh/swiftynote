@@ -48,6 +48,14 @@
 			);
 			target = 2B4F151E2D19517E004B8838 /* Swiftynote */;
 		};
+		2BDF14032D2E7F9400F5048D /* Exceptions for "Documentation" folder in "Swiftynote" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				APIAvailability.swift,
+				CodeComments.swift,
+			);
+			target = 2B4F151E2D19517E004B8838 /* Swiftynote */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -72,6 +80,14 @@
 		2BCBC9932D2E70580016CB0D /* Config */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Config;
+			sourceTree = "<group>";
+		};
+		2BDF13FC2D2E780200F5048D /* Documentation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2BDF14032D2E7F9400F5048D /* Exceptions for "Documentation" folder in "Swiftynote" target */,
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -106,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				2BCBC9932D2E70580016CB0D /* Config */,
+				2BDF13FC2D2E780200F5048D /* Documentation */,
 				2B4F15212D19517E004B8838 /* Swiftynote */,
 				2B4F15382D195180004B8838 /* SwiftynoteTests */,
 				2B4F15422D195180004B8838 /* SwiftynoteUITests */,
@@ -166,6 +183,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2B4F15212D19517E004B8838 /* Swiftynote */,
+				2BDF13FC2D2E780200F5048D /* Documentation */,
 			);
 			name = Swiftynote;
 			productName = swiftynote;
@@ -409,21 +427,25 @@
 				DEVELOPMENT_TEAM = 3NF59D2CW5;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = swiftynote/Info.plist;
+				INFOPLIST_FILE = Swiftynote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.swiftynote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -438,21 +460,25 @@
 				DEVELOPMENT_TEAM = 3NF59D2CW5;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = swiftynote/Info.plist;
+				INFOPLIST_FILE = Swiftynote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.swiftynote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
