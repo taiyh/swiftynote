@@ -51,3 +51,55 @@ You can support both types of delegate objects, but UIKit always uses scene dele
 | 电池电量或电池状态发生变化     | [`batteryLevelDidChangeNotification`](https://developer.apple.com/documentation/uikit/uidevice/batteryleveldidchangenotification)<br/>[`batteryStateDidChangeNotification`](https://developer.apple.com/documentation/uikit/uidevice/batterystatedidchangenotification) |      |
 | 设备与用户的距离发生了变化     | [`proximityStateDidChangeNotification`](https://developer.apple.com/documentation/uikit/uidevice/proximitystatedidchangenotification) |      |
 
+
+### 安装 flipper 问题记录
+
+1，安装 `idb` companion
+
+```
+brew tap facebook/fb
+arch -arm64 brew install idb-companion
+```
+
+2，安装 `idb` client
+
+安装 pip
+
+```
+curl https://bootstrap.pypa.io/get-pip.py | python3
+```
+
+```
+pip install fb-idb
+```
+
+>[idb](https://github.com/facebook/flipper/issues/3126)
+
+```
+which idb
+```
+
+>[M1 idb_companion](https://github.com/facebook/flipper/issues/3497)
+
+```
+sudo  ln -s /opt/homebrew/bin/idb_companion /usr/local/bin/idb_companion
+```
+
+### idb 基本使用
+```
+idb list-targets
+```
+```
+idb list-apps --udid 74064851-4B98-473A-8110-225202BB86F6
+```
+```
+idb launch com.apple.mobilesafari
+```
+
+
+### RN调试工具 reactotron
+>[doc]https://docs.infinite.red/reactotron/quick-start/react-native/
+>[github](https://github.com/infinitered/reactotron)
+
+### RN内置调试工具 devtools
+>[devtools](https://reactnative.dev/docs/next/react-native-devtools)

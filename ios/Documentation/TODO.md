@@ -17,6 +17,10 @@
 || `UIApplicationShortcutItem`    |P2| [ui-restoration](https://developer.apple.com/documentation/uikit/about-the-ui-restoration-process)                  | 待定 |
 || 临近检测 proximity |P1| [uidevice](https://developer.apple.com/documentation/uikit/uidevice/isproximitymonitoringenabled) [proximity-sensor](https://itnext.io/ios-proximity-sensor-as-simple-as-possible-a473df883dc9) |  |
 || 后台任务处理 || [BGTask](https://developer.apple.com/documentation/uikit/using-background-tasks-to-update-your-app) | |
+|| FaceId || [BGTask](https://developer.apple.com/documentation/uikit/using-background-tasks-to-update-your-app) | |
+|| TouchId || [BGTask](https://developer.apple.com/documentation/uikit/using-background-tasks-to-update-your-app) | |
+|| AppleLogIn || [BGTask](https://developer.apple.com/documentation/uikit/using-background-tasks-to-update-your-app) | |
+
 
 ---
 
