@@ -8,10 +8,10 @@
 import UIKit
 
 open class BaseViewController: UIViewController {
-    
+
     // MARK: status bar style
     // requires the UIViewControllerBasedStatusBarAppearance key in the Info.plist is set to YES
-    open var statusBarStyle: UIStatusBarStyle = .lightContent {
+    open var statusBarStyle: UIStatusBarStyle = .default {
         didSet {
             setNeedsStatusBarAppearanceUpdate()
         }
@@ -21,9 +21,23 @@ open class BaseViewController: UIViewController {
             setNeedsStatusBarAppearanceUpdate()
         }
     }
-    
+
+    // MARK: navigation bar visibility
+    open var navigationBarHidden: Bool = false {
+        didSet {
+            updateNavigationBarVisibility()
+        }
+    }
+
+    // MARK: view life cycle
     open override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
+    }
+
+    open override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        updateNavigationBarVisibility()
     }
 }
 
@@ -37,5 +51,12 @@ extension BaseViewController {
     }
     open override var preferredStatusBarStyle: UIStatusBarStyle {
         return statusBarStyle
+    }
+}
+
+// MARK: navigation bar visibility
+extension BaseViewController {
+    private func updateNavigationBarVisibility() {
+        navigationController?.setNavigationBarHidden(navigationBarHidden, animated: true)
     }
 }

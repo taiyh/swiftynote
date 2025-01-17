@@ -90,6 +90,11 @@
 			path = Documentation;
 			sourceTree = "<group>";
 		};
+		2BDF14B72D300E9F00F5048D /* Source */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				2BCBC9932D2E70580016CB0D /* Config */,
+				2BDF14B72D300E9F00F5048D /* Source */,
 				2BDF13FC2D2E780200F5048D /* Documentation */,
 				2B4F15212D19517E004B8838 /* Swiftynote */,
 				2B4F15382D195180004B8838 /* SwiftynoteTests */,
@@ -185,6 +191,7 @@
 			fileSystemSynchronizedGroups = (
 				2B4F15212D19517E004B8838 /* Swiftynote */,
 				2BDF13FC2D2E780200F5048D /* Documentation */,
+				2BDF14B72D300E9F00F5048D /* Source */,
 			);
 			name = Swiftynote;
 			productName = swiftynote;
@@ -432,8 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Swiftynote/Swiftynote.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3NF59D2CW5;
+				DEVELOPMENT_TEAM = 743L583R76;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Swiftynote/Info.plist;
@@ -448,8 +456,10 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.swiftynote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.casstime.ec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,8 +475,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Swiftynote/Swiftynote.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3NF59D2CW5;
+				DEVELOPMENT_TEAM = 743L583R76;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Swiftynote/Info.plist;
@@ -481,8 +492,10 @@
 					"@executable_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.taiyh.swiftynote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.casstime.ec;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

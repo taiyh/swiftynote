@@ -20,6 +20,10 @@
 || FaceId || [BGTask](https://developer.apple.com/documentation/uikit/using-background-tasks-to-update-your-app) | |
 || TouchId || [BGTask](https://developer.apple.com/documentation/uikit/using-background-tasks-to-update-your-app) | |
 || AppleLogIn || [BGTask](https://developer.apple.com/documentation/uikit/using-background-tasks-to-update-your-app) | |
+|| FFmpeg || [ffmpeg-kit](https://github.com/arthenica/ffmpeg-kit) | |
+|| ML-OCR || [ML]() | |
+|| UICollectionViewCompositionalLayout || [UICollectionViewCompositionalLayout]() | |
+|| IGListKit || [IGListKit]() | |
 
 
 ---

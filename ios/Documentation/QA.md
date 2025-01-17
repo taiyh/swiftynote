@@ -103,3 +103,7 @@ idb launch com.apple.mobilesafari
 
 ### RN内置调试工具 devtools
 >[devtools](https://reactnative.dev/docs/next/react-native-devtools)
+
+### swift 条件编译函数targetEnvironment
+simulator：检查是否在模拟器环境中编译。
+macCatalyst：检查是否在 macOS 环境中编译（使用 Mac Catalyst）。
