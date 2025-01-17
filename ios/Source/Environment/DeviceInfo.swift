@@ -1,6 +1,6 @@
 //
 //  DeviceInfo.swift
-//  Swiftynote
+//  SwiftyNote
 //
 //  Created by taiyh on 2025/1/9.
 //

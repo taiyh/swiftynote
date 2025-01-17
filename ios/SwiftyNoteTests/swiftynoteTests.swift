@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import swiftynote
+@testable import SwiftyNote
 
 struct swiftynoteTests {
 

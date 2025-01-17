@@ -6,6 +6,6 @@
 //
 
 #include "Common.xcconfig"
-#include "Pods/Target Support Files/Pods-Swiftynote/Pods-Swiftynote.debug.xcconfig"
+#include "Pods/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote.debug.xcconfig"
 
 INFOPLIST_KEY_CFBundleDisplayName = $(inherited)-debug
