@@ -71,16 +71,22 @@
 		};
 		2B4F15382D195180004B8838 /* SwiftyNoteTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SwiftyNoteTests;
 			sourceTree = "<group>";
 		};
 		2B4F15422D195180004B8838 /* SwiftyNoteUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SwiftyNoteUITests;
 			sourceTree = "<group>";
 		};
 		2BCBC9932D2E70580016CB0D /* Config */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = Config;
 			sourceTree = "<group>";
 		};
@@ -94,6 +100,8 @@
 		};
 		2BDF14B72D300E9F00F5048D /* Source */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = Source;
 			sourceTree = "<group>";
 		};
@@ -431,13 +439,14 @@
 		};
 		2BDF14B32D2FDC3900F5048D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */;
+			productRef = 2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2B4F15492D195180004B8838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9704DC15E786CA9E5EE286 /* Pods-SwiftyNote.debug.xcconfig */;
 			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
 			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
@@ -474,6 +483,7 @@
 		};
 		2B4F154A2D195180004B8838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83EF08CD247FB2AC16209307 /* Pods-SwiftyNote.release.xcconfig */;
 			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
 			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
@@ -576,7 +586,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -646,7 +659,10 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -780,7 +796,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */ = {
+		2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2BDF140A2D2FCEFF00F5048D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
 			productName = "plugin:SwiftLintBuildToolPlugin";
