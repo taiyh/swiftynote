@@ -50,6 +50,13 @@
 			);
 			target = 2B4F151E2D19517E004B8838 /* SwiftyNote */;
 		};
+		2BB669232DBE346E0053CE08 /* Exceptions for "Script" folder in "SwiftyNote" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				change_build.sh,
+			);
+			target = 2B4F151E2D19517E004B8838 /* SwiftyNote */;
+		};
 		2BDF14032D2E7F9400F5048D /* Exceptions for "Documentation" folder in "SwiftyNote" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -71,22 +78,24 @@
 		};
 		2B4F15382D195180004B8838 /* SwiftyNoteTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = SwiftyNoteTests;
 			sourceTree = "<group>";
 		};
 		2B4F15422D195180004B8838 /* SwiftyNoteUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = SwiftyNoteUITests;
+			sourceTree = "<group>";
+		};
+		2BB669222DBE33FC0053CE08 /* Script */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2BB669232DBE346E0053CE08 /* Exceptions for "Script" folder in "SwiftyNote" target */,
+			);
+			path = Script;
 			sourceTree = "<group>";
 		};
 		2BCBC9932D2E70580016CB0D /* Config */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = Config;
 			sourceTree = "<group>";
 		};
@@ -100,8 +109,6 @@
 		};
 		2BDF14B72D300E9F00F5048D /* Source */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = Source;
 			sourceTree = "<group>";
 		};
@@ -136,6 +143,7 @@
 		2B4F15162D19517E004B8838 = {
 			isa = PBXGroup;
 			children = (
+				2BB669222DBE33FC0053CE08 /* Script */,
 				2BCBC9932D2E70580016CB0D /* Config */,
 				2BDF14B72D300E9F00F5048D /* Source */,
 				2BDF13FC2D2E780200F5048D /* Documentation */,
@@ -194,6 +202,7 @@
 				32A0692EC5AE8576B4B6B1EC /* [CP] Embed Pods Frameworks */,
 				67C8C771C48FBA235428795B /* [CP] Copy Pods Resources */,
 				2B4F17212D1A3EC7004B8838 /* Print  ENV */,
+				2B42B5F42D6EFF430094A610 /* Run Market Version */,
 			);
 			buildRules = (
 			);
@@ -202,6 +211,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2B4F15212D19517E004B8838 /* SwiftyNote */,
+				2BB669222DBE33FC0053CE08 /* Script */,
 				2BDF13FC2D2E780200F5048D /* Documentation */,
 				2BDF14B72D300E9F00F5048D /* Source */,
 			);
@@ -281,6 +291,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 2B4F15162D19517E004B8838;
 			minimizedProjectReferenceProxies = 1;
@@ -325,6 +336,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2B42B5F42D6EFF430094A610 /* Run Market Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Market Version";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"当前版本号: $MARKETING_VERSION\"\n";
+		};
 		2B4F17212D1A3EC7004B8838 /* Print  ENV */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -439,14 +468,13 @@
 		};
 		2BDF14B32D2FDC3900F5048D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */;
+			productRef = 2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2B4F15492D195180004B8838 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF9704DC15E786CA9E5EE286 /* Pods-SwiftyNote.debug.xcconfig */;
 			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
 			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
@@ -458,6 +486,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftyNote/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "-debug";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -477,13 +506,13 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VERSIONING_SYSTEM = "apple-generic";
 				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
 		2B4F154A2D195180004B8838 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83EF08CD247FB2AC16209307 /* Pods-SwiftyNote.release.xcconfig */;
 			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
 			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
@@ -495,6 +524,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftyNote/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "-debug";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -514,6 +544,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VERSIONING_SYSTEM = "apple-generic";
 				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
@@ -523,6 +554,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
@@ -586,10 +618,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -603,6 +632,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
@@ -659,10 +689,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -796,7 +823,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */ = {
+		2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2BDF140A2D2FCEFF00F5048D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
 			productName = "plugin:SwiftLintBuildToolPlugin";

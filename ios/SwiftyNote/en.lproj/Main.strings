@@ -1,0 +1,15 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "MWB-Nt-52i"; */
+"MWB-Nt-52i.title" = "Item";
+
+/* Class = "UICommand"; title = "Item 1"; ObjectID = "UJZ-og-L4S"; */
+"UJZ-og-L4S.title" = "Item 1";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pZC-80-UEo"; */
+"pZC-80-UEo.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "sbk-d0-5e3"; */
+"sbk-d0-5e3.title" = "Item";
+
+/* Class = "UICommand"; title = "Item 2"; ObjectID = "znY-R5-TpR"; */
+"znY-R5-TpR.title" = "Item 2";
