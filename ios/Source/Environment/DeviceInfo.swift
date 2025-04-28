@@ -15,6 +15,7 @@ open class DeviceInfo: NSObject {
         return UIDevice.current.systemName
     }
 
+    /// 获取设备名称。iOS 16以后返回 iPhone。 https://developer.apple.com/documentation/uikit/uidevice/name
     var name: String {
         return UIDevice.current.name
     }
@@ -88,7 +89,7 @@ open class DeviceInfo: NSObject {
             return name ?? ""
         }
 
-        if modelId .hasPrefix("iPod") {
+        if modelId.hasPrefix("iPod") {
             return "iPod Touch"
         } else if modelId.hasPrefix("iPad") {
             return "iPad"
