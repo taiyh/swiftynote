@@ -43,6 +43,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2B277A572DC0BE2300D0786A /* Exceptions for "Config" folder in "SwiftyNote" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ip.txt,
+			);
+			target = 2B4F151E2D19517E004B8838 /* SwiftyNote */;
+		};
 		2B4F15472D195180004B8838 /* Exceptions for "SwiftyNote" folder in "SwiftyNote" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -96,6 +103,9 @@
 		};
 		2BCBC9932D2E70580016CB0D /* Config */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B277A572DC0BE2300D0786A /* Exceptions for "Config" folder in "SwiftyNote" target */,
+			);
 			path = Config;
 			sourceTree = "<group>";
 		};
@@ -475,8 +485,6 @@
 /* Begin XCBuildConfiguration section */
 		2B4F15492D195180004B8838 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
-			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -513,8 +521,6 @@
 		};
 		2B4F154A2D195180004B8838 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
-			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -551,6 +557,8 @@
 		};
 		2B4F154B2D195180004B8838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -629,6 +637,8 @@
 		};
 		2B4F154C2D195180004B8838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 2BCBC9932D2E70580016CB0D /* Config */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;

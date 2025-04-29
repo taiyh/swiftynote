@@ -13,7 +13,7 @@ class ViewController: BaseViewController {
     @objc func btttc() {
         let xframe = UIApplication.shared.statusBarFrame
         print("statusBarFrame: \(xframe)")
-        self.navigationController?.pushViewController(AppInfoViewController(), animated: true)
+        self.navigationController?.pushViewController(RCTBaseViewController(), animated: true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()

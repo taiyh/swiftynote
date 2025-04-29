@@ -8,6 +8,7 @@ require Pod::Executable.execute_command('node', ['-p',
   )', __dir__]).strip
 
 # react-native 0.76 需要最低 15.1 版本
+# react-native 升级到 0.79，最低版本不变，podfile不变
 platform :ios, '15.1'
 prepare_react_native_project!
 # 空

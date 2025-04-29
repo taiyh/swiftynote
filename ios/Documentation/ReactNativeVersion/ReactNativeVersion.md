@@ -2,7 +2,7 @@
 
 | 版本号  | 发布日期   | 功能                                                         | 最低版本要求                                                 | 维护              |
 | ------- | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- |
-| 0.79.0  | 2025-04-08 | [React Native 0.79 - Faster tooling and much more](https://reactnative.dev/blog/2025/04/08/react-native-0.79) | [15.1](https://github.com/facebook/react-native/blob/v0.79.0/packages/react-native/scripts/cocoapods/helpers.rb) |                   |
+| 0.79.0  | 2025-04-08 | [React Native 0.79 - Faster tooling and much more](https://reactnative.dev/blog/2025/04/08/react-native-0.79) | [iOS 15.1](https://github.com/facebook/react-native/blob/v0.79.0/packages/react-native/scripts/cocoapods/helpers.rb) |                   |
 | 0.78.0  | 2025-02-19 | [React 19 and more](https://reactnative.dev/blog/2025/02/19/react-native-0.78) | [iOS 15.1](https://github.com/facebook/react-native/blob/v0.78.0/packages/react-native/scripts/cocoapods/helpers.rb) |                   |
 | 0.77.1  |            | [v0.77.1](https://github.com/facebook/react-native/releases/tag/v0.77.1) |                                                              |                   |
 | 0.77.0  | 2025-01-21 | [New Styling Features, Android’s 16KB page support, Swift Template](https://reactnative.dev/blog/2025/01/21/version-0.77) | [iOS 15.1](https://github.com/facebook/react-native/blob/v0.77.0/packages/react-native/scripts/cocoapods/helpers.rb) |                   |
