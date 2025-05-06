@@ -21,6 +21,10 @@ class RCTManager: RCTDefaultReactNativeFactoryDelegate {
         return factory.rootViewFactory.view(withModuleName: moduleName, initialProperties: initProps)
     }
 
+    public func reload(_ reason: String? = "RCTManager") {
+        RCTTriggerReloadCommandListeners(reason)
+    }
+
     override func sourceURL(for bridge: RCTBridge) -> URL? {
         return self.bundleURL()
     }
