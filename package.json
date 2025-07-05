@@ -6,7 +6,7 @@
     "start": "yarn react-native start"
   },
   "dependencies": {
-    "react-native": "0.79.1"
+    "react-native": "0.80.0"
   },
   "devDependencies": {
     "@react-native-community/cli": "^18.0.0"

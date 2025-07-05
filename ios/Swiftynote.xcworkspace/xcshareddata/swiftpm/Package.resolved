@@ -1,6 +1,24 @@
 {
-  "originHash" : "1fa961aa1dc717cea452f3389668f0f99a254f07e4eb11d190768a53798f744f",
+  "originHash" : "08afba2f47f2b19ba43b44f1012795987d3e031c9edf51e3dc60bf9f0cac2a05",
   "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "rongcloudim-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitee.com/rongcloud/RongCloudIM-iOS",
+      "state" : {
+        "revision" : "5810af9e3bc4e580e1732c3765631922fbf48b3e",
+        "version" : "5.16.0"
+      }
+    },
     {
       "identity" : "swiftlintplugins",
       "kind" : "remoteSourceControl",

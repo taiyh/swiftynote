@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B91F2582DE437280052B731 /* IMKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2572DE437280052B731 /* IMKit */; };
+		2B91F25A2DE437280052B731 /* IMLibCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2592DE437280052B731 /* IMLibCore */; };
+		2B91F25D2DE438900052B731 /* ChatRoom in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F25C2DE438900052B731 /* ChatRoom */; };
+		2B91F25F2DE438900052B731 /* ContactCard in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F25E2DE438900052B731 /* ContactCard */; };
+		2B91F2612DE438900052B731 /* CustomerService in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2602DE438900052B731 /* CustomerService */; };
+		2B91F2632DE438900052B731 /* Discussion in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2622DE438900052B731 /* Discussion */; };
+		2B91F2652DE438900052B731 /* IMKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2642DE438900052B731 /* IMKit */; };
+		2B91F2672DE438900052B731 /* IMLibCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2662DE438900052B731 /* IMLibCore */; };
+		2B91F2692DE438900052B731 /* PublicService in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2682DE438900052B731 /* PublicService */; };
+		2B91F26B2DE438900052B731 /* Sight in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F26A2DE438900052B731 /* Sight */; };
+		2B91F26D2DE438900052B731 /* Sticker in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F26C2DE438900052B731 /* Sticker */; };
+		2B91F2702DE43CAE0052B731 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F26F2DE43CAE0052B731 /* Alamofire */; };
+		2BA734C32DE80D1000EFB2CD /* ChatRoom in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA734C22DE80D1000EFB2CD /* ChatRoom */; };
+		2BA734C52DE80D1000EFB2CD /* ContactCard in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA734C42DE80D1000EFB2CD /* ContactCard */; };
+		2BA734C72DE80D1000EFB2CD /* CustomerService in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA734C62DE80D1000EFB2CD /* CustomerService */; };
+		2BA734C92DE80D1000EFB2CD /* Discussion in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA734C82DE80D1000EFB2CD /* Discussion */; };
+		2BA734CB2DE80D1000EFB2CD /* IMKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA734CA2DE80D1000EFB2CD /* IMKit */; };
+		2BA734CD2DE80D1000EFB2CD /* IMLibCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA734CC2DE80D1000EFB2CD /* IMLibCore */; };
+		2BA734CF2DE80D1000EFB2CD /* PublicService in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA734CE2DE80D1000EFB2CD /* PublicService */; };
+		2BA734D12DE80D1000EFB2CD /* Sight in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA734D02DE80D1000EFB2CD /* Sight */; };
+		2BA734D32DE80D1000EFB2CD /* Sticker in Frameworks */ = {isa = PBXBuildFile; productRef = 2BA734D22DE80D1000EFB2CD /* Sticker */; };
 		41E0192C424B9714D2C14693 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 38BC7DC251A2D5F631C4964C /* PrivacyInfo.xcprivacy */; };
 		7CE9660040F130065BA15374 /* Pods_SwiftyNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372C64BE6CDBBDFF739B2FBA /* Pods_SwiftyNote.framework */; };
 /* End PBXBuildFile section */
@@ -129,7 +150,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA734CD2DE80D1000EFB2CD /* IMLibCore in Frameworks */,
+				2B91F26D2DE438900052B731 /* Sticker in Frameworks */,
+				2B91F26B2DE438900052B731 /* Sight in Frameworks */,
+				2BA734D12DE80D1000EFB2CD /* Sight in Frameworks */,
+				2BA734C72DE80D1000EFB2CD /* CustomerService in Frameworks */,
+				2BA734C92DE80D1000EFB2CD /* Discussion in Frameworks */,
 				7CE9660040F130065BA15374 /* Pods_SwiftyNote.framework in Frameworks */,
+				2B91F2632DE438900052B731 /* Discussion in Frameworks */,
+				2B91F25D2DE438900052B731 /* ChatRoom in Frameworks */,
+				2B91F2692DE438900052B731 /* PublicService in Frameworks */,
+				2BA734D32DE80D1000EFB2CD /* Sticker in Frameworks */,
+				2B91F2652DE438900052B731 /* IMKit in Frameworks */,
+				2B91F2672DE438900052B731 /* IMLibCore in Frameworks */,
+				2B91F2612DE438900052B731 /* CustomerService in Frameworks */,
+				2BA734C52DE80D1000EFB2CD /* ContactCard in Frameworks */,
+				2BA734CF2DE80D1000EFB2CD /* PublicService in Frameworks */,
+				2BA734C32DE80D1000EFB2CD /* ChatRoom in Frameworks */,
+				2B91F25A2DE437280052B731 /* IMLibCore in Frameworks */,
+				2B91F2582DE437280052B731 /* IMKit in Frameworks */,
+				2BA734CB2DE80D1000EFB2CD /* IMKit in Frameworks */,
+				2B91F25F2DE438900052B731 /* ContactCard in Frameworks */,
+				2B91F2702DE43CAE0052B731 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +349,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				2BDF140A2D2FCEFF00F5048D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+				2B91F26E2DE43CAE0052B731 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2B4F15202D19517E004B8838 /* Products */;
@@ -391,9 +435,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -408,9 +456,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -485,6 +537,7 @@
 /* Begin XCBuildConfiguration section */
 		2B4F15492D195180004B8838 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9704DC15E786CA9E5EE286 /* Pods-SwiftyNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -521,6 +574,7 @@
 		};
 		2B4F154A2D195180004B8838 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83EF08CD247FB2AC16209307 /* Pods-SwiftyNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -630,6 +684,7 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HERMES = true;
 			};
@@ -703,6 +758,7 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -822,6 +878,38 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2B91F2562DE437280052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/rongcloud/RongCloudIM-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.16.0;
+			};
+		};
+		2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/rongcloud/RongCloudIM-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.16.0;
+			};
+		};
+		2B91F26E2DE43CAE0052B731 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitee.com/rongcloud/RongCloudIM-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.16.0;
+			};
+		};
 		2BDF140A2D2FCEFF00F5048D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
@@ -833,6 +921,111 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2B91F2572DE437280052B731 /* IMKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F2562DE437280052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = IMKit;
+		};
+		2B91F2592DE437280052B731 /* IMLibCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F2562DE437280052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = IMLibCore;
+		};
+		2B91F25C2DE438900052B731 /* ChatRoom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = ChatRoom;
+		};
+		2B91F25E2DE438900052B731 /* ContactCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = ContactCard;
+		};
+		2B91F2602DE438900052B731 /* CustomerService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = CustomerService;
+		};
+		2B91F2622DE438900052B731 /* Discussion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = Discussion;
+		};
+		2B91F2642DE438900052B731 /* IMKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = IMKit;
+		};
+		2B91F2662DE438900052B731 /* IMLibCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = IMLibCore;
+		};
+		2B91F2682DE438900052B731 /* PublicService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = PublicService;
+		};
+		2B91F26A2DE438900052B731 /* Sight */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = Sight;
+		};
+		2B91F26C2DE438900052B731 /* Sticker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F25B2DE438900052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = Sticker;
+		};
+		2B91F26F2DE43CAE0052B731 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B91F26E2DE43CAE0052B731 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		2BA734C22DE80D1000EFB2CD /* ChatRoom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = ChatRoom;
+		};
+		2BA734C42DE80D1000EFB2CD /* ContactCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = ContactCard;
+		};
+		2BA734C62DE80D1000EFB2CD /* CustomerService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = CustomerService;
+		};
+		2BA734C82DE80D1000EFB2CD /* Discussion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = Discussion;
+		};
+		2BA734CA2DE80D1000EFB2CD /* IMKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = IMKit;
+		};
+		2BA734CC2DE80D1000EFB2CD /* IMLibCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = IMLibCore;
+		};
+		2BA734CE2DE80D1000EFB2CD /* PublicService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = PublicService;
+		};
+		2BA734D02DE80D1000EFB2CD /* Sight */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = Sight;
+		};
+		2BA734D22DE80D1000EFB2CD /* Sticker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = Sticker;
+		};
 		2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2BDF140A2D2FCEFF00F5048D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
