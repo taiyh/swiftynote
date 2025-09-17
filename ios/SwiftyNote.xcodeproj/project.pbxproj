@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2FAD142E7A37B8002FDE3E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B2FAD132E7A37B8002FDE3E /* SnapKit */; };
+		2B2FAD172E7A3864002FDE3E /* IMKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B2FAD162E7A3864002FDE3E /* IMKit */; };
+		2B2FAD192E7A3864002FDE3E /* IMLibCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2B2FAD182E7A3864002FDE3E /* IMLibCore */; };
 		2B91F2582DE437280052B731 /* IMKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2572DE437280052B731 /* IMKit */; };
 		2B91F25A2DE437280052B731 /* IMLibCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2592DE437280052B731 /* IMLibCore */; };
 		2B91F25D2DE438900052B731 /* ChatRoom in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F25C2DE438900052B731 /* ChatRoom */; };
@@ -106,15 +109,11 @@
 		};
 		2B4F15382D195180004B8838 /* SwiftyNoteTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = SwiftyNoteTests;
 			sourceTree = "<group>";
 		};
 		2B4F15422D195180004B8838 /* SwiftyNoteUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = SwiftyNoteUITests;
 			sourceTree = "<group>";
 		};
@@ -144,8 +143,6 @@
 		};
 		2BDF14B72D300E9F00F5048D /* Source */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = Source;
 			sourceTree = "<group>";
 		};
@@ -159,8 +156,11 @@
 				2BA734CD2DE80D1000EFB2CD /* IMLibCore in Frameworks */,
 				2B91F26D2DE438900052B731 /* Sticker in Frameworks */,
 				2B91F26B2DE438900052B731 /* Sight in Frameworks */,
+				2B2FAD192E7A3864002FDE3E /* IMLibCore in Frameworks */,
+				2B2FAD172E7A3864002FDE3E /* IMKit in Frameworks */,
 				2BA734D12DE80D1000EFB2CD /* Sight in Frameworks */,
 				2BA734C72DE80D1000EFB2CD /* CustomerService in Frameworks */,
+				2B2FAD142E7A37B8002FDE3E /* SnapKit in Frameworks */,
 				2BA734C92DE80D1000EFB2CD /* Discussion in Frameworks */,
 				7CE9660040F130065BA15374 /* Pods_SwiftyNote.framework in Frameworks */,
 				2B91F2632DE438900052B731 /* Discussion in Frameworks */,
@@ -356,7 +356,8 @@
 			packageReferences = (
 				2BDF140A2D2FCEFF00F5048D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
 				2B91F26E2DE43CAE0052B731 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */,
+				2B2FAD122E7A37B8002FDE3E /* XCRemoteSwiftPackageReference "SnapKit" */,
+				2B2FAD152E7A3864002FDE3E /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2B4F15202D19517E004B8838 /* Products */;
@@ -528,7 +529,7 @@
 		};
 		2BDF14B32D2FDC3900F5048D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */;
+			productRef = 2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -680,10 +681,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -759,10 +757,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -886,6 +881,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2B2FAD122E7A37B8002FDE3E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		2B2FAD152E7A3864002FDE3E /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rongcloud/RongCloudIM-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.26.0;
+			};
+		};
 		2B91F2562DE437280052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://gitee.com/rongcloud/RongCloudIM-iOS";
@@ -929,6 +940,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2B2FAD132E7A37B8002FDE3E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B2FAD122E7A37B8002FDE3E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		2B2FAD162E7A3864002FDE3E /* IMKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B2FAD152E7A3864002FDE3E /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = IMKit;
+		};
+		2B2FAD182E7A3864002FDE3E /* IMLibCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B2FAD152E7A3864002FDE3E /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
+			productName = IMLibCore;
+		};
 		2B91F2572DE437280052B731 /* IMKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2B91F2562DE437280052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
@@ -1034,7 +1060,7 @@
 			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
 			productName = Sticker;
 		};
-		2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */ = {
+		2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2BDF140A2D2FCEFF00F5048D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
 			productName = "plugin:SwiftLintBuildToolPlugin";

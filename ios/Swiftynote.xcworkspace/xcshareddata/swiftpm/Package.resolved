@@ -1,5 +1,5 @@
 {
-  "originHash" : "08afba2f47f2b19ba43b44f1012795987d3e031c9edf51e3dc60bf9f0cac2a05",
+  "originHash" : "2e64063eef35f4772a61fd52424c3a4caceec57b522cf94964c913f48e86719b",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -13,10 +13,19 @@
     {
       "identity" : "rongcloudim-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://gitee.com/rongcloud/RongCloudIM-iOS",
+      "location" : "https://github.com/rongcloud/RongCloudIM-iOS",
       "state" : {
-        "revision" : "5810af9e3bc4e580e1732c3765631922fbf48b3e",
-        "version" : "5.16.0"
+        "revision" : "59e6888fccb45c7556a661dd60f8bfbd5780afcd",
+        "version" : "5.26.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
       }
     },
     {
