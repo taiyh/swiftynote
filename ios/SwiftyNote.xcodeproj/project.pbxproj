@@ -10,6 +10,8 @@
 		2B2FAD142E7A37B8002FDE3E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B2FAD132E7A37B8002FDE3E /* SnapKit */; };
 		2B2FAD172E7A3864002FDE3E /* IMKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B2FAD162E7A3864002FDE3E /* IMKit */; };
 		2B2FAD192E7A3864002FDE3E /* IMLibCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2B2FAD182E7A3864002FDE3E /* IMLibCore */; };
+		2B4C5E452E7B8740001970D1 /* FrameLayoutKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B4C5E442E7B8740001970D1 /* FrameLayoutKit */; };
+		2B4C5E482E7B8852001970D1 /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 2B4C5E472E7B8852001970D1 /* FlexLayout */; };
 		2B91F2582DE437280052B731 /* IMKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2572DE437280052B731 /* IMKit */; };
 		2B91F25A2DE437280052B731 /* IMLibCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F2592DE437280052B731 /* IMLibCore */; };
 		2B91F25D2DE438900052B731 /* ChatRoom in Frameworks */ = {isa = PBXBuildFile; productRef = 2B91F25C2DE438900052B731 /* ChatRoom */; };
@@ -153,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4C5E482E7B8852001970D1 /* FlexLayout in Frameworks */,
 				2BA734CD2DE80D1000EFB2CD /* IMLibCore in Frameworks */,
 				2B91F26D2DE438900052B731 /* Sticker in Frameworks */,
 				2B91F26B2DE438900052B731 /* Sight in Frameworks */,
@@ -164,6 +167,7 @@
 				2BA734C92DE80D1000EFB2CD /* Discussion in Frameworks */,
 				7CE9660040F130065BA15374 /* Pods_SwiftyNote.framework in Frameworks */,
 				2B91F2632DE438900052B731 /* Discussion in Frameworks */,
+				2B4C5E452E7B8740001970D1 /* FrameLayoutKit in Frameworks */,
 				2B91F25D2DE438900052B731 /* ChatRoom in Frameworks */,
 				2B91F2692DE438900052B731 /* PublicService in Frameworks */,
 				2BA734D32DE80D1000EFB2CD /* Sticker in Frameworks */,
@@ -358,6 +362,8 @@
 				2B91F26E2DE43CAE0052B731 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				2B2FAD122E7A37B8002FDE3E /* XCRemoteSwiftPackageReference "SnapKit" */,
 				2B2FAD152E7A3864002FDE3E /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */,
+				2B4C5E432E7B8740001970D1 /* XCRemoteSwiftPackageReference "FrameLayoutKit" */,
+				2B4C5E462E7B8852001970D1 /* XCRemoteSwiftPackageReference "FlexLayout" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2B4F15202D19517E004B8838 /* Products */;
@@ -897,6 +903,22 @@
 				minimumVersion = 5.26.0;
 			};
 		};
+		2B4C5E432E7B8740001970D1 /* XCRemoteSwiftPackageReference "FrameLayoutKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kennic/FrameLayoutKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.2;
+			};
+		};
+		2B4C5E462E7B8852001970D1 /* XCRemoteSwiftPackageReference "FlexLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/FlexLayout.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.2;
+			};
+		};
 		2B91F2562DE437280052B731 /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://gitee.com/rongcloud/RongCloudIM-iOS";
@@ -954,6 +976,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2B2FAD152E7A3864002FDE3E /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
 			productName = IMLibCore;
+		};
+		2B4C5E442E7B8740001970D1 /* FrameLayoutKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B4C5E432E7B8740001970D1 /* XCRemoteSwiftPackageReference "FrameLayoutKit" */;
+			productName = FrameLayoutKit;
+		};
+		2B4C5E472E7B8852001970D1 /* FlexLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B4C5E462E7B8852001970D1 /* XCRemoteSwiftPackageReference "FlexLayout" */;
+			productName = FlexLayout;
 		};
 		2B91F2572DE437280052B731 /* IMKit */ = {
 			isa = XCSwiftPackageProductDependency;

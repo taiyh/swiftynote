@@ -1,5 +1,5 @@
 {
-  "originHash" : "2e64063eef35f4772a61fd52424c3a4caceec57b522cf94964c913f48e86719b",
+  "originHash" : "bc9846cd9e37fe04cf176b857439482938d7d7886d38c496f66765750b72f3c9",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -8,6 +8,24 @@
       "state" : {
         "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
         "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "flexlayout",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/layoutBox/FlexLayout.git",
+      "state" : {
+        "revision" : "45b4e7cbcc9f35c05112860f4eb897aae4f5011c",
+        "version" : "2.2.2"
+      }
+    },
+    {
+      "identity" : "framelayoutkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kennic/FrameLayoutKit.git",
+      "state" : {
+        "revision" : "a15bca5569c8d7fe7ee11827689c47d48c4cff97",
+        "version" : "7.1.2"
       }
     },
     {
@@ -35,6 +53,15 @@
       "state" : {
         "revision" : "f9731bef175c3eea3a0ca960f1be78fcc2bc7853",
         "version" : "0.57.1"
+      }
+    },
+    {
+      "identity" : "yoga",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/yoga.git",
+      "state" : {
+        "revision" : "042f5013152eb81c1552dec945b88f7b95ca350f",
+        "version" : "3.2.1"
       }
     }
   ],
