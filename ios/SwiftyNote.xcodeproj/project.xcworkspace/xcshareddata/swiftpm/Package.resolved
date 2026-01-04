@@ -1,0 +1,69 @@
+{
+  "originHash" : "eeddf7c81323ba146f8041bf5c594894b1c007c87a03cc4e17d2786851906148",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "7be73f6c2b5cd90e40798b06ebd5da8f9f79cf88",
+        "version" : "5.11.0"
+      }
+    },
+    {
+      "identity" : "flexlayout",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/layoutBox/FlexLayout.git",
+      "state" : {
+        "revision" : "b1fcc81828e4b735c79d4c3fac35ef0754be0060",
+        "version" : "2.2.3"
+      }
+    },
+    {
+      "identity" : "framelayoutkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kennic/FrameLayoutKit.git",
+      "state" : {
+        "revision" : "a15bca5569c8d7fe7ee11827689c47d48c4cff97",
+        "version" : "7.1.2"
+      }
+    },
+    {
+      "identity" : "rongcloudim-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rongcloud/RongCloudIM-iOS",
+      "state" : {
+        "revision" : "5e2a72018f1ba29ac53a2dc3688f8e32766b36c1",
+        "version" : "5.34.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "swiftlintplugins",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SimplyDanny/SwiftLintPlugins",
+      "state" : {
+        "revision" : "8c9743122ff1408d3a0acafd84707cbde5636218",
+        "version" : "0.63.0"
+      }
+    },
+    {
+      "identity" : "yoga",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/yoga.git",
+      "state" : {
+        "revision" : "042f5013152eb81c1552dec945b88f7b95ca350f",
+        "version" : "3.2.1"
+      }
+    }
+  ],
+  "version" : 3
+}

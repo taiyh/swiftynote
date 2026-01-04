@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import React
+//import React
 import Alamofire
 import os.log
 

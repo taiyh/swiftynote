@@ -111,11 +111,15 @@
 		};
 		2B4F15382D195180004B8838 /* SwiftyNoteTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SwiftyNoteTests;
 			sourceTree = "<group>";
 		};
 		2B4F15422D195180004B8838 /* SwiftyNoteUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = SwiftyNoteUITests;
 			sourceTree = "<group>";
 		};
@@ -145,6 +149,8 @@
 		};
 		2BDF14B72D300E9F00F5048D /* Source */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = Source;
 			sourceTree = "<group>";
 		};
@@ -261,10 +267,10 @@
 				2B4F151B2D19517E004B8838 /* Sources */,
 				2B4F151C2D19517E004B8838 /* Frameworks */,
 				2B4F151D2D19517E004B8838 /* Resources */,
-				32A0692EC5AE8576B4B6B1EC /* [CP] Embed Pods Frameworks */,
-				67C8C771C48FBA235428795B /* [CP] Copy Pods Resources */,
 				2B4F17212D1A3EC7004B8838 /* Print  ENV */,
 				2B42B5F42D6EFF430094A610 /* Run Market Version */,
+				7693D5411C9434A2FAFF1127 /* [CP] Embed Pods Frameworks */,
+				617694ECDF4969BCAAD30C34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -440,24 +446,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nenv\n";
 		};
-		32A0692EC5AE8576B4B6B1EC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		67C8C771C48FBA235428795B /* [CP] Copy Pods Resources */ = {
+		617694ECDF4969BCAAD30C34 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,6 +483,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7693D5411C9434A2FAFF1127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -535,7 +541,7 @@
 		};
 		2BDF14B32D2FDC3900F5048D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */;
+			productRef = 2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -687,7 +693,12 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -763,7 +774,12 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1092,7 +1108,7 @@
 			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
 			productName = Sticker;
 		};
-		2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */ = {
+		2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2BDF140A2D2FCEFF00F5048D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
 			productName = "plugin:SwiftLintBuildToolPlugin";
