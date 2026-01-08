@@ -9,6 +9,7 @@ import UIKit
 //import React
 import Alamofire
 import os.log
+import SnapKit
 
 class ViewController: BaseViewController {
     
@@ -63,13 +64,18 @@ class ViewController: BaseViewController {
         print("viewDidLoad")
         statusBarStyle = .darkContent
         
+        var corners = CACornerMask.layerMinXMinYCorner
+        if view.effectiveUserInterfaceLayoutDirection == .rightToLeft {
+            corners = .layerMaxXMinYCorner
+        }
+        
         navigationItem.title = "ViewController"
         let button = UIButton(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
-        button.setTitle("button", for: .normal)
+        button.setTitle(String(localized: "button"), for: .normal)
         button.addTarget(self, action: #selector(btttc), for: .touchUpInside)
         button.backgroundColor = .gray
         button.layer.cornerRadius = 25
-        button.layer.maskedCorners = .layerMinXMinYCorner
+        button.layer.maskedCorners = corners
 //        button.layer.shadowColor
         button.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.06).cgColor
         button.layer.shadowOffset = CGSize(width: 0, height: 1)
@@ -81,6 +87,11 @@ class ViewController: BaseViewController {
 //        button.layer.cornerRadius = 10
         
         view.addSubview(button)
+        button.snp.makeConstraints { make in
+            make.leading.equalTo(view).offset(100)
+            make.width.height.equalTo(100)
+            make.top.equalTo(view).offset(100)
+        }
 //        let bundleURL = RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index");
 //        [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index"];
         
@@ -96,11 +107,20 @@ class ViewController: BaseViewController {
 //        view = rootView
 
 //        view.backgroundColor = .lightGray
-        
         if #available(iOS 14.0, *) {
             testlogger()
         } else {
             // Fallback on earlier versions
+        }
+
+        let label = UILabel()
+        view.addSubview(label)
+        label.text = String(localized: "Add a description for your collection here.")
+        label.backgroundColor = .systemPink
+        label.snp.makeConstraints { make in
+            make.leading.equalTo(view).offset(10)
+            make.trailing.equalTo(view).offset(-10)
+            make.top.equalTo(view).offset(200)
         }
     }
     override func viewWillTransition(
@@ -112,7 +132,7 @@ class ViewController: BaseViewController {
         print("view coordinator: \(coordinator) ")
 
     }
-    
+
     override func willTransition(
         to newCollection: UITraitCollection,
         with coordinator: any UIViewControllerTransitionCoordinator
@@ -121,14 +141,13 @@ class ViewController: BaseViewController {
         print("newCollection: \(newCollection) ")
         print("coordinator: \(coordinator) ")
     }
-    
+
 //    viewWillTransitionToSize(_ size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
 //        print("viewWillTransitionToSize")
 //    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
 }
 
 @available(iOS 17.0, macOS 14.0, tvOS 17.0, *)

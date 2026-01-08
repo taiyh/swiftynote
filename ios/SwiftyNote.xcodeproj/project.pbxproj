@@ -111,16 +111,17 @@
 		};
 		2B4F15382D195180004B8838 /* SwiftyNoteTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = SwiftyNoteTests;
 			sourceTree = "<group>";
 		};
 		2B4F15422D195180004B8838 /* SwiftyNoteUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = SwiftyNoteUITests;
+			sourceTree = "<group>";
+		};
+		2B9D669B2F0B8DE300CBFE81 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		2BB669222DBE33FC0053CE08 /* Script */ = {
@@ -149,8 +150,6 @@
 		};
 		2BDF14B72D300E9F00F5048D /* Source */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = Source;
 			sourceTree = "<group>";
 		};
@@ -211,6 +210,7 @@
 		2B4F15162D19517E004B8838 = {
 			isa = PBXGroup;
 			children = (
+				2B9D669B2F0B8DE300CBFE81 /* Resources */,
 				2BB669222DBE33FC0053CE08 /* Script */,
 				2BCBC9932D2E70580016CB0D /* Config */,
 				2BDF14B72D300E9F00F5048D /* Source */,
@@ -279,6 +279,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2B4F15212D19517E004B8838 /* SwiftyNote */,
+				2B9D669B2F0B8DE300CBFE81 /* Resources */,
 				2BB669222DBE33FC0053CE08 /* Script */,
 				2BDF13FC2D2E780200F5048D /* Documentation */,
 				2BDF14B72D300E9F00F5048D /* Source */,
@@ -360,6 +361,7 @@
 				en,
 				Base,
 				"zh-Hans",
+				ar,
 			);
 			mainGroup = 2B4F15162D19517E004B8838;
 			minimizedProjectReferenceProxies = 1;
@@ -454,9 +456,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -493,9 +499,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftyNote/Pods-SwiftyNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -541,7 +551,7 @@
 		};
 		2BDF14B32D2FDC3900F5048D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			productRef = 2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */;
+			productRef = 2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -564,7 +574,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -601,7 +611,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -695,10 +705,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -776,10 +783,7 @@
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -1108,7 +1112,7 @@
 			package = 2BA734C12DE80D1000EFB2CD /* XCRemoteSwiftPackageReference "RongCloudIM-iOS" */;
 			productName = Sticker;
 		};
-		2BDF14B22D2FDC3900F5048D /* plugin:SwiftLintBuildToolPlugin */ = {
+		2BDF14B22D2FDC3900F5048D /* SwiftLintBuildToolPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2BDF140A2D2FCEFF00F5048D /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
 			productName = "plugin:SwiftLintBuildToolPlugin";
